@@ -1,0 +1,116 @@
+/* =========================================================
+   keepthinKING SDG — design tokens
+   Palette: Boardroom (navy + ivory + muted gold)
+   Typography: Editorial (Instrument Serif + Inter)
+   ========================================================= */
+
+:root {
+  /* ---------- Colors ---------- */
+  --bg-dark: #0A1628;
+  --bg-light: #F4F1E8;
+
+  --text-primary-dark: #F4F1E8;
+  --text-primary-light: #0A1628;
+  --text-secondary-dark: #8A94A6;
+  --text-secondary-light: #5A6578;
+
+  --accent-gold: #C9A961;
+  --accent-gold-hover: #D4B97A;
+
+  --card-dark: #132238;
+  --card-light: #FFFFFF;
+
+  --border-dark: #1E2D45;
+  --border-light: #E5E0D3;
+
+  /* ---------- Typography ---------- */
+  --font-serif: 'Instrument Serif', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  /* Desktop sizes */
+  --fs-h1: 80px;
+  --fs-h2: 52px;
+  --fs-h3: 24px;
+  --fs-lead: 22px;
+  --fs-body: 19px;
+  --fs-small: 14px;
+  --fs-caption: 13px;
+  --fs-eyebrow: 14px;
+
+  --fs-number-hero: 140px;
+  --fs-number-xl: 120px;
+  --fs-number-lg: 88px;
+
+  /* Line heights */
+  --lh-tight: 1.05;
+  --lh-heading: 1.1;
+  --lh-body: 1.55;
+  --lh-lead: 1.45;
+
+  /* Letter spacing */
+  --ls-h1: -0.02em;
+  --ls-number: -0.03em;
+  --ls-eyebrow: 0.12em;
+  --ls-btn: 0.02em;
+
+  /* ---------- Layout ---------- */
+  --container-max: 1200px;
+  --container-pad: 40px;
+  --section-gap: 140px;
+  --nav-height: 80px;
+
+  /* ---------- Components ---------- */
+  --radius-card: 8px;
+  --radius-btn: 4px;
+  --border-width: 1px;
+
+  /* ---------- Motion ---------- */
+  --transition-fast: 0.2s ease;
+  --transition-base: 0.3s ease;
+}
+
+/* ---------- Laptop (1024–1199px) ---------- */
+@media (max-width: 1199px) {
+  :root {
+    --fs-h1: 64px;
+    --fs-h2: 44px;
+    --fs-number-hero: 120px;
+    --fs-number-xl: 100px;
+    --container-pad: 32px;
+    --section-gap: 120px;
+  }
+}
+
+/* ---------- Tablet (768–1023px) ---------- */
+@media (max-width: 1023px) {
+  :root {
+    --fs-h1: 56px;
+    --fs-h2: 40px;
+    --fs-h3: 22px;
+    --fs-lead: 20px;
+    --fs-body: 18px;
+    --fs-number-hero: 100px;
+    --fs-number-xl: 84px;
+    --fs-number-lg: 64px;
+    --container-pad: 24px;
+    --section-gap: 100px;
+  }
+}
+
+/* ---------- Mobile (≤767px) ---------- */
+@media (max-width: 767px) {
+  :root {
+    --fs-h1: 44px;
+    --fs-h2: 32px;
+    --fs-h3: 20px;
+    --fs-lead: 18px;
+    --fs-body: 17px;
+    --fs-small: 13px;
+    --fs-number-hero: 72px;
+    --fs-number-xl: 64px;
+    --fs-number-lg: 48px;
+    --container-pad: 20px;
+    --section-gap: 80px;
+    --nav-height: 64px;
+  }
+}
