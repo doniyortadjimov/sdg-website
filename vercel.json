@@ -11,13 +11,5 @@
         { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=()" }
       ]
     }
-  ],
-  "redirects": [
-    {
-      "source": "/(.*)",
-      "has": [{ "type": "host", "value": "www.keepthinking.uz" }],
-      "destination": "https://keepthinking.uz/$1",
-      "permanent": true
-    }
   ]
 }
