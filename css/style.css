@@ -1379,3 +1379,19 @@ ul, ol { list-style: none; }
   .footer__inner { flex-direction: column; }
   .footer__right { text-align: left; }
 }
+
+/* Mobile nav fixes */
+@media (max-width: 767px) {
+  .nav__right .btn-outline {
+    display: none;
+  }
+  .nav__logo-main {
+    font-size: 16px;
+  }
+  .nav__logo-img {
+    height: 24px;
+  }
+  .nav__inner {
+    gap: 8px;
+  }
+}
